@@ -17,8 +17,18 @@ Thus, in applications like sales forecast, and inventory stock it is preferable 
 ### What other metrics do you think could be useful for this model evaluation?
 Besides RMSLE, other potential metrics include:
  - Root Mean Squared Error (RMSE): This metric provides the square root of the average squared differences between predicted and actual observations. A lower RMSE indicates a better fit to the data.
- - Mean Squared Error (MSE): It represents the average of the squared differences between predicted and actual values. Lower values of MSE indicate better fit models, but it might be more sensitive to outliers than other metrics.
+ - Mean Squared Error (MSE): It represents the average of the squared differences between predicted and actual values. Lower values of MSE indicate better-fit models, but it might be more sensitive to outliers than other metrics.
  - Mean Absolute Error (MAE): MAE calculates the average of the absolute differences between the predicted and actual values. It gives a linear penalty to the errors, making it more interpretable since it provides the average error in the same unit as the target variable.
+
+Here is a table of comparison of these metrics across the various models used in this assignment.
+ | Model             | RMSLE | RMSE | MSE  | MAE  |
+|-------------------|-------|------|------|------|
+| Gradient Boosting | 0.28  | 0.85 | 0.73 | 0.40 |
+| Linear Regression | 0.29  | 0.95 | 0.91 | 0.44 |
+| Random Forest     | 0.31  | 0.94 | 0.88 | 0.37 |
+| SARIMA            | 0.43  | 0.95 | 0.91 | 0.44 |
+| ARIMA             | 0.45  | 1.21 | 1.46 | 0.52 |
+
 ### Provide the design of prediction model service implementation (Step 2)
 #### Service Overview:
 The prediction service will be a scheduled automated system, making use of ETL (Extract, Transform, Load) principles. The goal is to fetch data, run the model, and save predictions seamlessly.
