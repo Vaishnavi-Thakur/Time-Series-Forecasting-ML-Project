@@ -49,7 +49,13 @@ By designing the service in this manner, we ensure that human intervention is mi
 
 ### 3. Related Files and Images
 #### Exploratory Data Analysis in Jupyter Notebook
-The plots and visualizations pertaining to the exploratory data analysis can be found in the Jupyter Notebook. This notebook provides detailed insights into the dataset, including trends, patterns, and statistical summaries.
+The plots and visualizations pertaining to the exploratory data analysis are plotted in the Jupyter Notebook. This notebook provides detailed insights into the dataset, including trends, patterns, and statistical summaries.
+
+![image](https://github.com/Vaishnavi-Thakur/Time-Series-Forecasting-ML-Project/assets/63786583/69b637c7-26b2-4900-839f-d972d892d942)
+![image](https://github.com/Vaishnavi-Thakur/Time-Series-Forecasting-ML-Project/assets/63786583/20945a97-14b8-4974-b70b-6639a4d53e72)
+![image](https://github.com/Vaishnavi-Thakur/Time-Series-Forecasting-ML-Project/assets/63786583/976ee895-1454-4653-b986-a680426d1e4c)
+![image](https://github.com/Vaishnavi-Thakur/Time-Series-Forecasting-ML-Project/assets/63786583/19fd8229-7b3f-48dd-8da0-5d109f67de6f)
+![image](https://github.com/Vaishnavi-Thakur/Time-Series-Forecasting-ML-Project/assets/63786583/facbb0d2-0e37-4ee8-96e8-e47a4ea28a0f)
 
 #### Interactive Tableau Dashboard
 Below are images from a simple interactive dashboard created in Tableau. These visualizations offer a user-friendly interface for exploring and understanding the data more intuitively.
