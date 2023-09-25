@@ -46,3 +46,29 @@ Assumptions:
  - The model doesn't take an exorbitantly long time to make predictions, ensuring that the 1:00 a.m. deadline is met.
 
 By designing the service in this manner, we ensure that human intervention is minimized, the predictions are timely, and there's room to scale and expand the system as needed.
+
+### 3. Related Files and Images
+#### Exploratory Data Analysis in Jupyter Notebook
+The plots and visualizations pertaining to the exploratory data analysis can be found in the Jupyter Notebook. This notebook provides detailed insights into the dataset, including trends, patterns, and statistical summaries.
+
+#### Interactive Tableau Dashboard
+Below are images from a simple interactive dashboard created in Tableau. These visualizations offer a user-friendly interface for exploring and understanding the data more intuitively.
+
+##### Time Series Sales Data
+![time-series](https://github.com/Vaishnavi-Thakur/Time-Series-Forecasting-ML-Project/assets/63786583/9785249f-da82-483e-9208-2405a258ab56)
+This image displays the time series data, showcasing the sales trends over a specific period. It helps in identifying sales patterns and potential seasonality.
+
+##### Variation of Sales in Each Store Over a Month
+![store-family-month](https://github.com/Vaishnavi-Thakur/Time-Series-Forecasting-ML-Project/assets/63786583/ae0393f7-9b4f-4565-8503-4ad6ecf1d36b)
+This visualization illustrates how sales vary across different stores over a single month, allowing for comparisons and insights into store performance.
+
+##### Variation of Sales in Each Store Over a Period of Years
+![store-family-year](https://github.com/Vaishnavi-Thakur/Time-Series-Forecasting-ML-Project/assets/63786583/3440eba5-a034-4aa9-9939-20b0b280d707)
+This image highlights the changes in sales within each store over multiple years. It aids in understanding long-term trends and identifying growth or decline patterns.
+
+##### Percentage Change in Sales of Each Family
+![family-month-year](https://github.com/Vaishnavi-Thakur/Time-Series-Forecasting-ML-Project/assets/63786583/6b20221a-3559-42c0-8cbe-2b0dc1223366)
+This visualization presents the percentage change in sales for different product families over time. It provides valuable insights into the performance dynamics of each family.
+
+#### Additional Datasets
+In addition to the visualizations, having access to supplementary datasets that contain essential information, including store state, city, store type, transactions per day, and holidays complement the existing data and facilitates the creation of more informative and comprehensive data visualizations, enabling a deeper understanding of the factors influencing sales trends.
